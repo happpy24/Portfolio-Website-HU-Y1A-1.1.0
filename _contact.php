@@ -48,6 +48,9 @@
                         <p class="arrows">message</p>
                         <input name="message" id="contact-message" type="text">
                     </div>
+                    <div class="contact-confirm">
+                        <input name="send-message" value="Send Message" type="submit">
+                    </div>
                 </form>
             </div>
             <div class="contact-right">
