@@ -55,7 +55,6 @@
             </div>
             <div class="contact-right">
                 <h3 class="contact-title">Or contact me directly!</h3>
-                
             </div>
         </div>
     </div>
