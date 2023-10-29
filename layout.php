@@ -25,9 +25,8 @@
         </nav>
     </header>
     <main role="main" class="pb-3">
-        <?php include($childView); ?>
+        <?php if ($childView) { include($childView); } ?>
     </main>
-
     <div class="footfoot">
         <footer>
             <div class="flexfoot">
