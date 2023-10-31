@@ -5,21 +5,15 @@
     $db_name = "contactPage";
     $conn = "";
 
-    try{
-        $conn = mysqli_connect($db_server, 
-                               $db_user, 
-                               $db_pass, 
-                               $db_name);
+    try {
+        $conn = mysqli_connect($db_server, $db_user, $db_pass, $db_name);
+    } catch (mysqli_sql_exception $e) {
+        echo "<script>console.log('Could not connect to Database');</script>";
     }
-    catch(mysqli_sql_exception){
-        echo"Could not connect to Database!";
-    }
-    
 
-    if ($conn){
-        echo"Database Connected!";
-    }
-    else{
-        echo"Could not connect to Database!";
+    if ($conn) {
+        echo "<script>console.log('Database Connected!');</script>";
+    } else {
+        echo "<script>console.log('Could not connect to Database!');</script>";
     }
 ?>

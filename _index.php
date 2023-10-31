@@ -7,7 +7,7 @@
         <div class="right-container">
             <h1 class="title-text rc-content arrows">V. Speijer</h1>
             <h2 class="sub-text rc-content">Web dev - Game dev - Design</h2>
-            <a class="sub-button rc-content" href="/about">About me</a>
+            <a class="sub-button rc-content" href="about.php">About me</a>
         </div>
     </div>
 

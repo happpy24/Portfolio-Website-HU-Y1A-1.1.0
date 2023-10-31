@@ -31,30 +31,42 @@
         <div class="contact-form">
             <div class="contact-left">
                 <h3 class="contact-title">Send me a message!</h3>
-                <form action="contact.php" method="post">
+                <form action="<?php htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="post">
                     <div class="contact-small">
-                        <p class="arrows">name</p>
-                        <input name="name" id="contact-name" type="text">
+                        <p class="contact-banaan arrows">name</p>
+                        <input name="name" id="contact-name" type="text" class="contact-text-input">
                     </div>
                     <div class="contact-small">
-                        <p class="arrows">email</p>
-                        <input name="email" id="contact-email" type="email">
+                        <p class="contact-banaan arrows">email</p>
+                        <input name="email" id="contact-email" type="email" class="contact-text-input">
                     </div>
                     <div class="contact-small">
-                        <p class="arrows">subject</p>
-                        <input name="subject" id="contact-subject" type="text">
+                        <p class="contact-banaan arrows">subject</p>
+                        <input name="subject" id="contact-subject" type="text" class="contact-text-input">
                     </div>
                     <div class="contact-big">
-                        <p class="arrows">message</p>
-                        <input name="message" id="contact-message" type="text">
+                        <p class="contact-banaan arrows">message</p>
+                        <input name="message" id="contact-message" type="text" class="contact-text-input">
                     </div>
-                    <div class="contact-confirm">
-                        <input name="send-message" value="Send Message" type="submit">
-                    </div>
+                    <input name="send-message" value="Send Message" type="submit" class="contact-confirm">
                 </form>
             </div>
             <div class="contact-right">
                 <h3 class="contact-title">Or contact me directly!</h3>
+                <div class="contact-direct-flex">
+                    <div class="contact-direct-item">
+                        <!-- svg + p -->
+                    </div>
+                    <div class="contact-direct-item">
+                        <!-- svg + p -->
+                    </div>
+                    <div class="contact-direct-item">
+                        <!-- svg + p -->
+                    </div>
+                    <div class="contact-direct-item">
+                        <!-- svg + p -->
+                    </div>
+                </div>
             </div>
         </div>
     </div>

@@ -1,0 +1,6 @@
+{
+    "db_server": "localhost",
+    "db_user": "vivi",
+    "db_pass": "supersafepassword",
+    "db_name": "contactPage"
+}
